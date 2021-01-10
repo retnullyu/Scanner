@@ -1,0 +1,47 @@
+[
+    {
+        "server": "HTTP",
+        "port": "5357",
+        "banner": "HTTP/1.1 503 Service Unavailable\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Sun, 10 Jan 2021 03:36:02 GMT\r\nConnection: close\r\nContent-Length: 326\r\n\r\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\"http://www.w3.org/T"
+    },
+    {
+        "server": "HTTPS",
+        "port": "443",
+        "banner": ""
+    },
+    {
+        "server": "HTTP",
+        "port": "9090",
+        "banner": "HTTP/1.0 200 OK\r\nContent-Type: application/json; charset=utf-8\r\nVary: Origin\r\nDate: Sun, 10 Jan 2021 03:36:06 GMT\r\nContent-Length: 18\r\n\r\n{\"hello\":\"clash\"}\n"
+    },
+    {
+        "server": "Unknown",
+        "port": "7890",
+        "banner": ""
+    },
+    {
+        "server": "HTTP",
+        "port": "20080",
+        "banner": "HTTP/1.1 404 Not Found\r\nContent-Type: text/plain; charset=utf-8\r\nContent-Length: 9\r\nDate: Sun, 10 Jan 2021 03:36:49 GMT\r\nConnection: close\r\n\r\nNot Found"
+    },
+    {
+        "server": "HTTP",
+        "port": "32768",
+        "banner": "HTTP/1.1 302 Found\r\nDate: Sun, 10 Jan 2021 03:36:55 GMT\r\nServer: Apache/2.4.7 (Ubuntu)\r\nX-Powered-By: PHP/5.5.9-1ubuntu4\r\nSet-Cookie: PHPSESSID=1cbkp4qega5qgub8r4fe040al1; path=/\r\nExpires: Thu, 19 Nov 1981 08:52:00 GMT\r\nCache-Control: no-store, no-cache, m"
+    },
+    {
+        "server": "HTTP",
+        "port": "8307",
+        "banner": "HTTP/1.1 404 Not Found\r\nDate: Sun, 10 Jan 2021 03:37:05 GMT\r\nConnection: close\r\nContent-Type: text/plain; charset=utf-8\r\nContent-Length: 0\r\n\r\n"
+    },
+    {
+        "server": "Vmware",
+        "port": "902",
+        "banner": "220 VMware Authentication Daemon Version 1.10: SSL Required, ServerDaemonProtocol:SOAP, MKSDisplayProtocol:VNC , , NFCSSL supported/t\r\n"
+    },
+    {
+        "server": "RPC",
+        "port": "135",
+        "banner": ""
+    }
+]
